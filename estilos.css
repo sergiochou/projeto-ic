@@ -5,6 +5,7 @@ span {
     font-size: 20px;
     text-align: right;
     
+    
   }
 body{
     margin: 0;
@@ -23,6 +24,17 @@ body{
     border-radius: 50px;
     
   }
+
+  .cont {
+    max-width: 500px;
+    
+    margin: 10px auto;
+    padding: 20px;
+    background-color:  rgb(202, 202, 181);
+    text-align: center;
+    border-radius: 10px;
+    
+  }
   .menu-links {
     text-align: center;
   }
@@ -36,7 +48,7 @@ body{
     
     
   }
-  * {
+  .borda{
     border: 1px solid rgb(53, 52, 51);
     border-radius: 10px;
   }
@@ -59,9 +71,11 @@ h1{
     text-align: center;
     margin-right: 20px;
     margin-bottom: 8px;
-    
+    border-radius: 10px;
 }
-
+* {
+  border-radius: 10px;
+}
 span {
     margin-right: 20px;
 }
@@ -96,3 +110,14 @@ table {
     color: rgb(153, 76, 0);        
     text-decoration: underline;    
   }
+
+  .quadrado {
+    width: 500px;
+    height: 200px;
+    background-color: white;
+    border: 2px solid black; /* opcional, só pra mostrar a borda */
+    
+}
+.esquerda{
+  text-align: left;
+}
